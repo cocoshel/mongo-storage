@@ -1,0 +1,32 @@
+{
+  "name": "cocoshel-mongo-storage",
+  "version": "0.0.1",
+  "description": "MongoDB cocoshel data storage module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocoshel/mongo-storage.git"
+  },
+  "keywords": [
+    "cocoshel",
+    "storage",
+    "mongo"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cocoshel/mongo-storage/issues"
+  },
+  "homepage": "https://github.com/cocoshel/mongo-storage#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.6",
+    "mongoose": "^4.6.6"
+  }
+}
